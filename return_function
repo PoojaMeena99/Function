@@ -1,0 +1,132 @@
+# RETURN:-
+# "RETUEN FUNCTION WHICH WE TAKE FROM FUNCTION"
+
+def fun(a,b):
+    c=a+b
+    return(c)
+x=int(input("enter the no."))
+y=int(input("enter the no."))
+z=(x+y)
+print(z)
+
+
+
+def fun():
+    a=int(input("enter the no."))
+    b=int(input("enter the no."))
+    c=a+b
+    return(c)
+sun=fun()
+print(sun)    
+
+
+
+def fun(a,b=4):
+    c=a+b
+    return(c)
+sum=fun(2,3)
+print(sum)
+
+
+def fun(a,b=4):
+    # a=int(input("enter the no."))
+    # b=int(input("enter the no."))
+    c=a+b
+    return(c)
+s=fun(2)
+print(s)    
+
+
+
+def fun(*name):
+    a=int(input("enter the no."))
+    b=int(input("enter the no."))
+    c=a+b
+    return(c)
+sum=fun(2,3,4,5,6)
+print(sum)
+    
+
+
+
+
+def fun(a):
+    return(a)
+print('hii')
+s=fun(5)    
+print(s)
+
+
+def fun(*a):
+    i=0
+    while i<len(a):
+        print(a[i])
+        i=i+1    
+    print(a)
+fun([2,4,6,7,8,9,34,89,])
+
+
+
+# ("POSSITIONAL")
+def fun(a,b):
+    c=(a,b)
+    return c
+print(fun(2,3))   
+
+
+
+
+("DIFAULT")
+
+def fun(a,b=3):
+   c= a+b
+   return c
+print(fun(2))
+
+
+def fun(a,b=2):
+    print(a+b)
+a=int(input("enter the no."))
+b=int(input("enter the no."))
+fun(a,b)    
+
+
+def fun(*a):
+    for i in a:
+        print("hello",i)
+fun(1,2,3,4,5,6,7,8)        
+
+
+("KEYWORD")
+
+def fun(k1,k2):
+    z=k1+k2
+    print(z)
+fun(k2="pooja",k1="meena")    
+
+
+def fun(p1,p2,p3,p4):
+    print(p1+p2+p4+p3)
+fun(p1="pooja",p2="priti",p3="mahi",p4="thapki")    
+    
+
+"ARBITARY KEYWORD ARGUMENT"
+def fun(**name):
+    for i in name:
+        print("hello",name[i])
+fun(k1="shivani",k3="pooja",k2="simi")        
+
+def add(y):
+    x=10
+    return x+y
+sum=add(20)
+print(sum)
+
+
+def fun(*name):
+    
+    for i in name:
+        return ("hello",i)
+s=fun(1,2,3,4,5,)
+print(s) 
+print(s)       
