@@ -1,0 +1,97 @@
+          # "function argument"
+
+
+# def my_function(bob):
+#     print(bob+"sis")
+# my_function("palak")
+# my_function("priti")
+# my_function("pooja")  
+
+
+# def my(a):
+#     i=0
+#     while i<10:
+#         print(a)
+#         i=i+1 
+# a=input("inter name")        
+# my(a)      
+
+
+# def num():
+#     num=[1,2,3,4,5,6,7,10,-2]
+#     print(max(num))
+# num()    
+
+
+# a=[1,2,3,4,5,6]
+# print(len(a))
+
+
+# def say(name):
+#     print("hello",name)
+#     print("how are you ?",name)
+# say("pooja")    
+    
+
+
+        
+# def say_hello_language(name, language):
+#     if language == "hindi":
+#         print("Namaste ", name)
+#         print("Aap kaise ho?")
+#     elif language == "punjabi":
+#         print("Sat sri akaal ", name)
+#         print("Tuhada ki haal hai?",name)
+#     else:
+#           print("Hello ", name)
+#           print("How are you?")
+# say_hello_language("Rishabh", "punjabi")
+# say_hello_language("Armaan", "english")
+# say_hello_language("Abhishek", "french")
+# say_hello_language("Kavay", "hindi")
+
+
+
+# def say_hello_people(name_x, name_y, name_z, name_a,name_h):
+#        print("Namaste ", name_x) # In hindi
+#        print("Alah hafiz ", name_y) # In urdu 
+#        print("Bonjour ", name_z) # In french 
+#        print("Hello ", name_a) # In english 
+#        print("hii",name_h)
+# say_hello_people("Imitiyaz", "Rishabh", "Rahul", "Vidya","pooja")
+# say_hello_people("Steve", "Saswata", "Shakrundin", "Rajeev")
+
+
+
+# def icecream(*flavours):
+#      for flavour in flavours:
+#         print(" i love"+flavour)
+# icecream("chocolate", "butterscotch","vanilla","strawberry")
+
+
+
+# def attendance(name,status="absent"):
+#     print(name,"is",status," today")
+# attendance("kartik","present")
+# attendance("sonu")
+# attendance("vishal","present")
+# attendance("umesh")
+
+# def add_numbers(number1, number2):
+#     print("I will add two numbers.")
+#     print(number1 + number2)
+# add_numbers(120, 590)
+
+
+
+# def sum():
+#     num_x = "134"
+#     name = "Rinki"
+#     print(num_x, name)
+# sum()    
+
+
+
+
+
+
