@@ -1,0 +1,206 @@
+# def add(number1,number2):
+#     print(number1+number2)
+# #calling function with two arguments as function is defined with two parameters
+# add(12,56)
+
+
+
+# a="python"
+# i=0
+# while i<len(a):
+#     print(a[i])
+#     i+=1
+
+
+
+# def fun(l1,l2):
+#     for i in range(len(l1)):
+#         sum=l1[i]+l2[i]
+#         print(sum)
+# list1=[10,20,30]
+# list2=[40,50,60]
+# fun(list1,list2)
+
+
+# def check_numbers(a,b):
+    #     if(a%2==0 and b%2==0):
+#         print("both are even")
+#         print(a/2,b/2)
+#     else:
+#         print("both numbers are not even")
+# check_numbers(10,20)
+
+
+# l1=[50,60,10,89]   
+# l2=[10,20,13]
+# k=[]
+# for i in range(0,len(l1)):
+#     if i<len(l2):
+#         k.append(l1[i]+l2[i])
+#     else:
+#         k.append(l1[i])
+# print(k)
+
+
+
+# def check_numbers(a,b):
+#     for i in range(len(a)):
+#         if(a[i]%2==0 and b[i]%2==0):
+#             print("both are even")
+#         else:
+#             print("both numbers are not even")
+# l1=[10,13,20,21,22]
+# l2=[16,18,19,21,27]
+# check_numbers(l1,l2)
+
+
+# def add_numbers(number_x, number_y):
+#     number_sum = number_x + number_y
+#     return number_sum
+
+# sum1 = add_numbers(20, 40)
+# print(sum1)
+# sum2 = add_numbers(560, 23)
+# a = 1234
+# b = 12
+# sum3 = add_numbers(a, b)
+# print(sum2)
+# print(sum3)
+# number_a = add_numbers(20, 40) / add_numbers(5, 1)
+# print(number_a)
+
+
+
+# def add_numbers_print(number_x, number_y):
+#     number_sum = number_x + number_y
+#     print (number_sum)
+# sum4 = add_numbers_print(4, 5)
+# print(sum4)
+# print(type(sum4))
+
+
+
+# number_b = add_numbers_print(5, 4) / add_numbers_print(2, 1)
+
+
+# def menu(day):
+#     if day == "monday":
+#         food = "Butter Chicken"
+#     elif day == "tuesday":
+#         food = "Mutton Chaap"
+#     else:
+#         food = "Chole Bhature"
+#     print("Will I be able to print? :-(")
+#     return food
+# print("But I'm not sure will print? :'(")
+# print(menu("monday"))
+
+
+
+
+# def menu(day):
+#     if day == "monday":
+#         return "Butter Chicken"
+#     elif day == "tuesday":
+#         return "Mutton Chaap"
+#     else:
+#       return "Chole Bhature"
+# print("Will I be able to print? :-(")
+# mon_menu = menu("monday")
+# print(mon_menu)
+# tues_menu = menu("tuesday")
+# print(tues_menu)
+# fri_menu = menu("friday")
+# print(fri_menu)
+
+
+
+# def add_numbers_more(number_x, number_y):
+#     number_sum = number_x + number_y
+#     print("Hello from NavGurukul ;)")
+#     return number_sum                  ["error"]
+# number_sum=number_x,number_y
+# print("Will i reach here?")
+# sum6=(number_sum)
+# sum6 = add_numbers_more(100, 20)
+
+
+
+
+# def cal(number_x,number_y,operation):
+#     l=[]
+#     if(operation=="add"):
+#        print(number_x+number_y)
+#     elif(operation=="sub"):
+#         print(number_x-number_y)
+#     elif(operation=="divide"):
+#         print(number_x/number_y)      ["error"]
+#     elif(operation=="multiply"):
+#         for i in range(len(number_x)):
+#             mul=number_x[i]*number_y[i]
+#         l.append(mul)
+#         print(l)
+#     else:print("invalid request")
+# l1=[10,20,30,40]
+# l2=[50,60,70,80]
+# cal(l1,l2,"multiply")
+#  cal=(l1,l2,"add")
+# cal=(l1,l2,"sub")
+# cal=(l1,l2,"divide")
+
+
+
+
+
+# def cal(number_x,number_y,operation):
+#     if(operation=="add"):
+#         print(number_x+number_y)
+#         print(number_x+number_y)    
+#     elif(operation=="sub"):
+#         print(number_x-number_y)
+#     elif(operation=="divide"):
+#         print(number_x/number_y)
+#     elif(operation=="multiply"):
+#         print(number_x*number_y)
+#     else:
+#         print("invalid request")
+# cal(14,2,"add")
+# cal(10,8,"sub")
+# cal(4,10,"multiply")
+# cal(50,5,"divide")
+
+
+
+
+# def distance(kms):
+#     if kms < 20:
+#          print("close")
+#     elif kms < 50:
+#          print("median")
+#     else:
+#         print("far")
+# distance(70)
+
+
+
+# def distance(kms):
+#     if kms < 20:
+#         print("close")
+#     elif kms < 50:
+#        print("median")
+#     else:
+#         print("far")
+# distance(20)
+
+
+
+# def first_function():
+#     s = 'I love India'
+#     print(s)
+# first_function()
+# def second_function():
+#     s = "MY NAME IS JACK"
+#     print(s)
+# second_function()
+
+
