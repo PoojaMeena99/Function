@@ -1,0 +1,56 @@
+        # "ARGUMENT"
+  
+#    "possition argument"
+
+#  def s():
+#     print("hello")
+#     print("simmi")
+# s()    
+# s()
+
+
+# def add(y):
+#         x=10
+#         return x+y
+# sum=add(20)
+# print(sum)        
+
+
+# def add (y):
+#         x=10
+#         c=x+y
+#         d=x-y
+#         return c,d      
+# print(add(5))  
+
+
+# def fun(a=7,b=5):
+#         x=a+b
+#         print(x)
+# fun(2)        
+
+
+
+
+
+
+
+# def m(a,b):
+#     print(a-b)
+# m("simi","5")    
+
+
+# def add(y):
+#     x=10
+#     c=x+y
+#     return c
+# sum=20    
+# print(sum)  
+# # add(10)
+
+
+# # def
+
+
+
+
